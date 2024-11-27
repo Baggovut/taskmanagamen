@@ -2,7 +2,6 @@ package com.testtask.taskmanagement.mapper;
 
 import com.testtask.taskmanagement.model.Task;
 import com.testtask.taskmanagement.pojo.TaskDTO;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

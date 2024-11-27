@@ -13,7 +13,6 @@ import org.springframework.web.server.ResponseStatusException;
 @Service
 @RequiredArgsConstructor
 public class UserService {
-    private final AuthenticationManager authenticationManager;
     private final UsersRepository usersRepository;
 
     public UserDetails getCurrentUserDetails() {

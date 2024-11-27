@@ -61,11 +61,10 @@ final public class TestUtils {
         return tasks;
     }
 
-    public static List<Task> createWorkTasks(User user, List<Task> tasks, int maxTasks) {
+    public static void createWorkTasks(User user, List<Task> tasks, int maxTasks) {
         for (int currentTask = 0; currentTask < maxTasks; currentTask++) {
             tasks.get(currentTask).setExecutor(user);
         }
-        return tasks;
     }
 
     public static User getUserWithoutWorkTasks(List<User> users, User workUser) {
