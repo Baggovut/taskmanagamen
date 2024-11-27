@@ -16,6 +16,6 @@ Test task.
 
 ### Starting locally
 * Download, install and configure project tools.
-* Execute `git clone https://github.com/Baggovut/taskmanagement.git` and wait for the project to download.
+* Execute `git clone https://github.com/Baggovut/taskmanagament.git` and wait for the project to download.
 * Execute `mvn compile exec:java` in project root directory to run the application. Swagger UI would be available at 'http://localhost:8080/swagger-ui/index.html' while application is running.
 * Execute `mvn test` in project root directory to run tests. Results would be in '/target/site/jacoco/index.html'
